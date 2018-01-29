@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package 
+    xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>dotnet.minireact.template</id>
+        <version>1.0.0</version>
+        <description>ASP.NET Core 'bare minimum' React.js app using Razor Pages and Typescript</description>
+        <authors>Marc LaFleur</authors>
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+    </metadata>
+    <files>
+        <file src="*\**" target="\" exclude="content\bin\**\*.*;content\obj\**\*.*;content\node_modules\**\*.*"/>
+    </files>
+</package>

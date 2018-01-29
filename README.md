@@ -1,1 +1,1 @@
-# MiniReact.Template
+# MiniReact

@@ -1,0 +1,41 @@
+{
+    "author": "Marc LaFleur",
+    "classifications": [
+        "Web",
+        "MVC",
+        "Razor Pages",
+        "React"
+    ],
+    "groupIdentity": "MassiveScale",
+    "identity": "dotnet.minireact.template",
+    "name": "ASP.NET Core 'bare minimum' web app project template",
+    "preferNameDirectory": true,
+    "primaryOutputs": [{
+        "path": "MiniRazor.csproj"
+    }],
+    "shortName": "minireact",
+    "sourceName": "MiniReact",
+    "sources": [{
+        "source": "./",
+        "target": "./",
+        "exclude": [
+            ".template.config/**",
+            ".vscode/**",
+            "bin/**",
+            "obj/**"
+        ]
+    }],
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "postActions": [{
+        "condition": "(!skipRestore)",
+        "description": "Restore  packages required by this project.",
+        "manualInstructions": [{
+            "text": "Run 'dotnet restore'"
+        }],
+        "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+        "continueOnError": true
+    }]
+}

@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "skipDefaultLibCheck": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "strict": true,
+    "baseUrl": "."
+
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
