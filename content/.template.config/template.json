@@ -7,11 +7,11 @@
         "React"
     ],
     "groupIdentity": "MassiveScale",
-    "identity": "dotnet.minireact.template",
-    "name": "ASP.NET Core 'bare minimum' web app project template",
+    "identity": "MiniReact.Template",
+    "name": "ASP.NET Core 'bare minimum' React.js app using Razor Pages and Typescript",
     "preferNameDirectory": true,
     "primaryOutputs": [{
-        "path": "MiniRazor.csproj"
+        "path": "MiniReact.csproj"
     }],
     "shortName": "minireact",
     "sourceName": "MiniReact",
