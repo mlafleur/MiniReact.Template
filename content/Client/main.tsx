@@ -2,6 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import * as RoutesModule from './routes';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 let routes = RoutesModule.routes;
