@@ -3,7 +3,7 @@
     xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>MiniReact.Template</id>
-        <version>0.0.4</version>
+        <version>0.1.0</version>
         <description>ASP.NET Core 'bare minimum' React.js app using Razor Pages and Typescript</description>
         <authors>Marc LaFleur</authors>
         <packageTypes>
