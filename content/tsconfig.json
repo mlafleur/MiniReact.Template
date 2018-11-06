@@ -6,7 +6,8 @@
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
-    "jsx": "react"
+    "jsx": "react",
+    "moduleResolution": "node"
   },
   "exclude": ["node_modules", "wwwroot"]
 }
